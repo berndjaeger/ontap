@@ -13,7 +13,7 @@ You can create service policies for S3 data and management services. An S3 servi
 
 .About this task
 
-An S3 service data policy is required if you are using data LIFs and intercluster LIFs. It is not required if you are using cluster LIFs for the local tiering use case.
+A S3 service data policy is required if you are using data LIFs and intercluster LIFs. It is not required if you are using cluster LIFs for the local tiering use case.
 
 When a service policy is specified for a LIF, the policy is used to construct a default role, failover policy, and data protocol list for the LIF.
 
